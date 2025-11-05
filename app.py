@@ -1,4 +1,5 @@
 import streamlit as st
+import hashlib, time, json
 
 st.set_page_config(page_title="Acta Digital", layout="centered")
 
@@ -18,3 +19,5 @@ with st.form("form_acta"):
         st.write("**Autor:**", autor)
         st.write("**Contenido:**")
         st.write(contenido)
+
+
